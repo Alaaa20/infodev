@@ -6,6 +6,8 @@ using GenieFramework
     @in N::Int32 = 1000
     @in amp::Float32 = 0.25
     @in freq::Int32 = 1
+    @in off:Float32 =1
+     @in pha::Float32 = 1
     
     @out my_sine = PlotData()
 
